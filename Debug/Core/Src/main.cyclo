@@ -1,0 +1,14 @@
+../Core/Src/main.c:91:6:send_message	1
+../Core/Src/main.c:111:5:main	1
+../Core/Src/main.c:176:6:SystemClock_Config	3
+../Core/Src/main.c:223:13:MX_TIM1_Init	4
+../Core/Src/main.c:269:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:302:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:333:13:MX_DMA_Init	1
+../Core/Src/main.c:351:13:MX_GPIO_Init	1
+../Core/Src/main.c:404:6:HAL_UART_RxCpltCallback	1
+../Core/Src/main.c:407:6:get_location	10
+../Core/Src/main.c:455:6:Format_data	2
+../Core/Src/main.c:488:6:check_PIR_and_control	2
+../Core/Src/main.c:501:8:haversine	1
+../Core/Src/main.c:519:6:Error_Handler	1

@@ -1,0 +1,9 @@
+../Core/Src/main.c:83:6:send_message	1
+../Core/Src/main.c:167:6:SystemClock_Config	3
+../Core/Src/main.c:395:6:HAL_UART_RxCpltCallback	1
+../Core/Src/main.c:430:6:Format_data	2
+../Core/Src/main.c:463:6:check_PIR_and_control	2
+../Core/Src/main.c:476:8:haversine	1
+../Core/Src/main.c:398:6:get_location	5
+../Core/Src/main.c:103:5:main	6
+../Core/Src/main.c:494:6:Error_Handler	1

@@ -1,0 +1,21 @@
+Haversine Function Implementation:
+Added haversine function to calculate great-circle distance between two GPS coordinates
+Function takes four parameters: lat1, lon1, lat2, lon2 (in degrees)
+Returns distance in meters
+
+Sliding Window Approach for GPS Coordinates:
+Implemented WINDOW_SIZE constant (set to 5) for storing recent GPS readings
+Added lat_window and lon_window arrays to store latitude and longitude history
+Introduced window_index variable to manage circular buffer behavior
+Added window_filled flag to indicate when the window has been fully populated
+
+Motion Detection Improvements:
+Modified get_location function to use sliding window approach
+Calculated average movement using differences between consecutive coordinates in the window
+Implemented MOTION_THRESHOLD constant for detecting significant movement
+Added logic to compare average movement against MOTION_THRESHOLD
+Integrated PIR sensor reading with GPS-based motion detection
+
+Debugging Enhancements:
+Added debug messages to display average movement calculations
+Implemented more detailed motion detection status messages 
