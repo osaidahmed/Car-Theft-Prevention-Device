@@ -1,8 +1,6 @@
 /*
  * LCD1602.c
  *
- *  Created on: 21-Jan-2020
- *      Author: Controllerstech
  */
 
 #include "LCD1602.h"
