@@ -1,8 +1,6 @@
 /*
  * lcd1602.h
  *
- *  Created on: Jan 21, 2020
- *      Author: Controllerstech
  */
 
 #ifndef INC_LCD1602_H_
